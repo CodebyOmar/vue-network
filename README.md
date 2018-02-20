@@ -3,33 +3,34 @@ A vue plugin that notifies your app and users when the network goes offline and 
 
 #Features
 Displays message to users as a notification, and disappears the the network is back online.;
-![Alt text](./src/img/Capture.jpg?raw=true "Screenshot")
+
+![Alt text](./src/img/Capture.png?raw=true "Screenshot")
 
 Provides a global variable to help you figure out if you app is offline within your vue component;
 
-function getData() {
-  if(this.$isOnline) {
-    fetch();
-  }else {
-    return;
-  }
-}
+    function getData() {
+        if(this.$isOnline) {
+            fetch();
+        }else {
+            return;
+        }
+    }
 
 # How to install the plugin
 
-npm install vue-network-plugin --save
+`npm install vue-network-plugin --save`
 
 # How to use
-1.
-//import the plugin in your main.js file
-import VueNetwork from "vue-network-plugin"
+1.//import the plugin in your main.js file
 
-Vue.use(VueNetwork)
+`import VueNetwork from "vue-network-plugin"`
 
-2.
-//you can also disable the notification by passing a "displayNotification" parameter
-//by default the notification is displayed
-Vue.use(VueNetwork, {displayNotification: false})
+`Vue.use(VueNetwork)`
+
+2.//you can also disable the notification by passing a "displayNotification" parameter
+Note:By default the notification is displayed
+
+`Vue.use(VueNetwork, {displayNotification: false})`
 
 #TODO
 
