@@ -3,7 +3,7 @@ A vue plugin that notifies your app and users when the network goes offline and 
 
 #Features
 Displays message to users as a notification, and disappears the the network is back online.;
-![Alt text](./src/img/Capture.jpg?raw=true "Screenshot")
+![Alt text](./src/img/Capture.png?raw=true "Screenshot")
 
 Provides a global variable to help you figure out if you app is offline within your vue component;
 
