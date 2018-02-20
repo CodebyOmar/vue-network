@@ -1,6 +1,6 @@
 {
-  "name": "vue-network",
-  "version": "1.0.0",
+  "name": "vue-network-plugin",
+  "version": "1.0.1",
   "description": "Notifies your app and users when your network goes offline and back online",
   "main": "./src/main.js",
   "scripts": {
