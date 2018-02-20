@@ -7,6 +7,10 @@
     "build:prod": "yarn build --env.env=prod",
     "build": "webpack"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodebyOmar/vue-network.git"
+  },
   "keywords": [
     "vue plugin",
     "network",
@@ -15,6 +19,10 @@
   ],
   "author": "codebyomar [Umar Abdullahi]",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodebyOmar/vue-network/issues"
+  },
+  "homepage": "https://github.com/CodebyOmar/vue-network#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
