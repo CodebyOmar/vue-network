@@ -21,14 +21,12 @@ Provides a global variable to help you figure out if you app is offline within y
 `npm install vue-network-plugin --save`
 
 # How to use
-1.`//import the plugin in your main.js file`
+1.import the plugin in your main.js file
 
-`import VueNetwork from "vue-network-plugin"`
+`import VueNetwork from "vue-network-plugin"
+ Vue.use(VueNetwork)`
 
-`Vue.use(VueNetwork)`
-
-2.`//you can also disable the notification by passing a "displayNotification" parameter`
-`Note:By default the notification is displayed`
+2.you can also disable the notification by passing a "displayNotification" parameter, by default the notification is displayed
 
 `Vue.use(VueNetwork, {displayNotification: false})`
 
