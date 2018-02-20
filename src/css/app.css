@@ -1,0 +1,9 @@
+#v-ntwrk-notificatn-by-codebyomar {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  background-color: indianred;
+  color: #fff;
+  font-weight: 500;
+  z-index:999999999;
+}

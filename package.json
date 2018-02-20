@@ -1,0 +1,29 @@
+{
+  "name": "vue-network",
+  "version": "1.0.0",
+  "description": "Notifies your app and users when your network goes offline and back online",
+  "main": "./src/main.js",
+  "scripts": {
+    "build:prod": "yarn build --env.env=prod",
+    "build": "webpack"
+  },
+  "keywords": [
+    "vue plugin",
+    "network",
+    "online",
+    "offline"
+  ],
+  "author": "codebyomar [Umar Abdullahi]",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "css-loader": "^0.28.9",
+    "uglifyjs-webpack-plugin": "^1.1.8",
+    "vue-loader": "^14.0.2",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-merge": "^4.1.1"
+  }
+}
