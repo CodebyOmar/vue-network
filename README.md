@@ -2,7 +2,7 @@
 A vue plugin that notifies your app and users when the network goes offline and back online.
 
 # Features
-Displays message to users as a notification, and disappears the the network is back online.;
+Displays message to users as a notification, and disappears when the network is back online.;
 
 ![Screenshot](/src/img/Capture.PNG?raw=true "Sample notification")
 
